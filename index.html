@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulario</title>
+</head>
+<body>
+    <h1>Rellena tus datos</h1>
+    <form action="#" method="post">
+        <label for="nombre" name="nombre" id="nombre">Nombre</label>
+        <br>
+        <input type="text" name="nombre" id="nombre" size="20">
+        <br>
+        <label for="apellidos" name="apellidos" id="apellidos" >Apellidos</label>
+        <br>
+        <input type="text" name="apellidos" id="apellidos" size="30">
+        <br>
+        <label for="email" id="email">E-mail</label>
+        <br>
+        <input type="email" name="email" id="email" size="30">
+        <br>
+        <label for="dni" id="dni">DNI</label>
+        <br>
+        <input type="text" name="dni" id="dni" size="12">
+        <br><br>
+        <label for="idioma">Idioma materno</label>
+        <br>
+        <input type="radio" name="idioma" id="castellano">
+        <label for="castellano" id="castellano">Castellano</label>
+        <br>
+        <input type="radio" name="idioma" id="valenciano">
+        <label for="valenciano" id="valenciano">Valenciano</label>
+        <br>
+        <input type="radio" name="idioma" id="otros">
+        <label for="otros" id="otros">Otros</label>
+        <br><br>
+        <label for="subirArchivo" id="subirArchivo">
+            Subir mi foto 
+            <input type="button" name="subirArchivo" id="subirArchivo" value="Sellecionar archivo"> 
+            Ningún archivo seleccionado.
+        </label>
+        <br><br>
+        <input type="checkbox" name="permitirDatos" id="permitirDatos">
+        <label for="permitirDatos" id="permitirDatos">Permitir que otros puedan ver mis datos.</label>
+        <br><br>
+        <input type="submit" value="Enviar datos" name="enviar" id="enciar">
+        <input type="reset" name="borrar" id="borrar" value="Borrar los datos introducidos">
+    </form>
+</body>
+</html>
